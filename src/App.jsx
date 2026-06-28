@@ -14,6 +14,7 @@ import Poem from './pages/Poem';
 import NotFound from "./pages/NotFound";
 
 import { useMemo } from "react";
+import LoveLetterToMacondo from './pages/LoveLetterToMacondo';
 
 function App() {
     const location = useLocation();
@@ -39,6 +40,8 @@ function App() {
                         <Route path="/" element={ <Home /> } />
                         <Route path="/poetry" element={ <Poetry /> } />
                         <Route path="/poem/:id" element={ <Poem /> } />
+
+                        <Route path="/lltm" element={ <LoveLetterToMacondo /> } />
 
                         <Route path="*" element={ <NotFound /> } />
                     </Routes>

@@ -5,6 +5,24 @@ This is a rewrite of my [portfolio site's frontend](https://github.com/ElectroBo
 
 Currently, I've implemented the home page and the poems view.
 
+## Featues
+
+- Shows my tech skills
+
+- Shows a list of poems I wrote
+
+- Allows me to upload poems
+
+## Tech Stack
+
+- Frontend: React, Material UI, Swiper.JS, framer-motion and react-icons
+
+- Backend: Java (Spring Boot)
+
+## Backend
+
+You can find more about the backend here (https://github.com/ElectroBoy404NotFound/nidofy/tree/main/nidofy-backend)
+
 
 ## Deploying
 
