@@ -7,6 +7,7 @@ import { createTheme, responsiveFontSizes , ThemeProvider } from '@mui/material/
 import './App.css'
 
 import DottedBackground from './components/DottedBackground';
+import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import Poetry from './pages/Poetry';
@@ -45,6 +46,8 @@ function App() {
 
                         <Route path="*" element={ <NotFound /> } />
                     </Routes>
+
+                    <Footer />
                 </motion.div>
             </AnimatePresence>
         </ThemeProvider>

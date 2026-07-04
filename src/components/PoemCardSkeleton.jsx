@@ -2,7 +2,13 @@ import { Card, CardHeader, CardContent, CardActions, Skeleton } from "@mui/mater
 
 export default function PoemCardSkeleton() {
     return (
-        <Card variant="outlined">
+        <Card variant="outlined" sx={{
+            bgcolor: "#161b22",
+            color: "#e6edf3",
+            borderRadius: 3,
+            boxShadow: "0 10px 35px rgba(0,0,0,.4)",
+            border: "1px solid rgba(255,255,255,.06)"
+        }}>
             <CardHeader
                 title={<Skeleton width="70%" />}
             />

@@ -10,7 +10,18 @@ export default function PoemPaperSkeleton({ poem }) {
     return (
         <>
             <Container maxWidth="md">
-                <Paper square={false} variant="elevation" elevation={3}>
+                <Paper square={false} variant="elevation" elevation={3} sx={{
+                    minWidth: {
+                        xs: 320,
+                        sm: 500,
+                        md: 700,
+                    },
+                    bgcolor: "#161b22",
+                    color: "#e6edf3",
+                    borderRadius: 4,
+                    boxShadow: "0 10px 35px rgba(0,0,0,.4)",
+                    border: "1px solid rgba(255,255,255,.06)"
+                }}>
                     <Grid container spacing={2}>
                         <Grid size={2}>
                             <AnimatedButton text="<< All Poems" to="/poetry" colour="primary" variant="text" sx={{ mt: { xs: "8px", md: "18px" }, ml: "2px" }} />
