@@ -32,7 +32,7 @@ Then copy the contents of the dist directory to your web server.
 
 ## Demo
 
-The live site can be accessed at https://nido.dino.icu/
+The live site can be accessed at [https://nido.dino.icu:3031/](https://nido.dino.icu:3031/)
 
 ## Contributing
 
